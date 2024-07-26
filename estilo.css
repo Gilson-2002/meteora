@@ -11,6 +11,12 @@
 .cor-icon{
     color: #daff01;
 }
+#cor-branca{
+    color: white;
+}
+.cor-preto{
+    color: black;
+}
 
 #cor-botao{
     background-color: #9353ff;
@@ -20,9 +26,42 @@
 .posicao{
     top: 40%;
 }
+.posi{
+    margin-top: -10px;
+    /* border: 1px solid red; */
+}
+.caixinha-pedido{
+    border: 1px solid gray;
 
+}
+
+.meu-carro{
+    /* border: 1px solid red; */
+}
+.meu-carro2{
+    height: 150px;
+    /* border: 1px solid rgb(0, 255, 157); */
+    
+}
+.meu-carro3{
+    /* border: 1px solid rgb(75, 20, 202); */
+}
 @media(max-width: 767px){
     .posicao{
         top:60%;
     }
+}
+
+
+.offcanvas-body {
+    overflow: auto; /* Permite a rolagem automática quando o conteúdo excede o container */
+    max-height: 100dvh; /* Define a altura máxima para o container */
+}
+/* Estilo para esconder a barra de rolagem */
+.offcanvas-body::-webkit-scrollbar {
+    display: none; /* Oculta a barra de rolagem no Webkit (Chrome, Safari) */
+}
+.offcanvas-body {
+    -ms-overflow-style: none; /* Oculta a barra de rolagem no Internet Explorer e Edge */
+    scrollbar-width: none; /* Oculta a barra de rolagem no Firefox */
 }
